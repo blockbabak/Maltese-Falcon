@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Story of My Brain</title>
+</head>
+<body>
+
+  <!-- Header with Outlook logo -->
+  <img src="images/outlook_logo.png" alt="Outlook logo" width="32" height="32" />
+<p><strong>From:</strong> Babak Kamali &lt;babak@kamalis.com&gt;</p>
+<p><strong>To:</strong> Jan Jirásek &lt;jan.jirasek@cardion.cz&gt;</p>
+  <h1>Story of My Brain</h1>
+
+  <p>Dear Dr. Jirásek,</p>
+
+  <p>Thank you for your kind response to a copy of an email I sent to my ex-wife Jana. I have noted your comments, but I hope you don’t mind that as a qualified engineer and system analyst with several decades of operational research experience, I decided to do my own research and would appreciate your comments on my following findings:</p>
+
+  <p>My LivaNova VNS implant (implanted May 2022 in Prague, device manufactured December 2021) was a replacement for the original device first implanted and activated in 2008 in King’s College Hospital. The initial device’s stimulation eventually stopped, and my symptoms returned in a way consistent with the published case study [1], leading me to conclude the stimulation must have stopped due to depleted batteries.</p>
+
+  <p>In your email, you pointed out that the impedance measured post-surgery of May 2022 was determined to be 3627 Ohms, which you characterized as a “normal value.” I am assuming that at the time the battery charge was full, and the impedance-loading test was interpreted as confirming the integrity of the circuit. This is in line with the cost of the surgery and what I was told before leaving the hospital – that there was no need for neurosurgery to re-establish the connection between the vagus nerve and the output electrodes of the new device.</p>
+
+  <p>However, while your assessment may consider the circuit intact, my research indicates that the therapeutic window for the device, as outlined in LivaNova documentation, necessitates maintaining the impedance value read through the provided interface between 500 and 3000 Ohms [2, 3].</p>
+
+  <p>Furthermore, 627 Ohms is only 20% of the maximum limit and I could not find any notes in the documentation claiming that such a margin of error is allowed in the design specifications.</p>
+
+  <p>The device was recently activated on June 17th or 18th (exact date to be confirmed), after remaining largely inactive since May 2022. The diagnostics from this activation provided new relevant readings as follows:</p>
+  <ul>
+    <li>Current Lead Impedance: 4013 Ohms</li>
+    <li>Current Battery Status: 18–25% remaining</li>
+  </ul>
+
+  <p>The most important issue to note is that the impedance remains outside of the therapeutic window specified above and supported by the references in the footnotes.</p>
+
+  <p>Admittedly I don’t have the full schematic diagram of the device’s circuitry, but assuming that the device is designed to maintain a constant current throughout the time that the battery can support (i.e., 8–10 years), my initial hypothesis is that either the device was faulty at the time of the replacement or the circuit was already compromised. While I would welcome any additional information to clarify my hypothesis further, I don’t see how it could change the overall conclusion or rule out the necessary further steps to remedy the situation.</p>
+
+  <p>To elaborate my hypothesis based on a constant-current circuit design, the excessive impedance has exacerbated the stress on the battery, resulting in accelerated loss of charge that in turn stresses the feedback loop to keep the current constant, ending in ever-increasing loss of battery charge.</p>
+
+  <p>A full-time profile of loss of charge seems unnecessary, or changing any remedial steps, unless I am provided with countering proof.</p>
+
+  <p>I had already written to LivaNova and I am sending a copy of this email to be appended to my initial report.</p>
+
+  <p>Given the above, right or wrong I hope you, LivaNova and the wider engineering community consider the matter worth examining since it clearly affects the effective level of VNS therapy in patients in general, and unless I am wrong making the therapeutic range the ultimate test rather than the impedance-loading protocol the ultimate verification of an effective Vagus Nerve Therapy, starting with my case.</p>
+
+  <p>Thanking you for your kind attention and awaiting your response,</p>
+
+  <p>Yours sincerely,<br>
+  Babak Kamali</p>
+
+  <hr />
+
+  <h2>Footnotes & References</h2>
+  <ol>
+    <li>Wiegand et al. “Relapse of major depression and emergence of insomnia with lead fracture in vagus nerve stimulation: a case report.” Journal of Medical Case Reports, 2014. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4210609/">PMC4210609</a></li>
+    <li>Vagus Nerve Stimulation Therapy: Indications, Programming, and Follow-Up. Surgical Neurology International, 2015. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4628168/">PMC4628168</a></li>
+    <li>LivaNova VNS Therapy™ SenTiva™ and AspireSR™ IPG Clinician’s Manual. <a href="https://www.livanova.com/epilepsy-vnstherapy/getmedia/a0f9e731-f117-4948-896e-abcfb377eb3f/IM-7601065-EPI_SenTecGd19U1-Rev-B_Sentival-Technical-Guide.pdf">Clinician’s Manual (PDF)</a></li>
+    <li>Medical Device Policy Document (Molina Healthcare Policy No. 006). <a href="https://www.molinahealthcare.com/~/media/Molina/Public%20Website/PDF/Common/Feb2023/Vagal-Nerve-Stimulation-for-Epilepsy_R.pdf">Policy PDF</a></li>
+  </ol>
+
+</body>
+</html>
